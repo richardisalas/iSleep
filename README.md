@@ -45,10 +45,18 @@ iSleep takes your privacy seriously:
 
 ## Requirements
 
-- watchOS 8.7 or later
+- watchOS 8.0 or later
 - Xcode 14.0 or later
-- Apple Watch Series 4 or later (recommended for optimal performance)
+- Apple Watch Series 3 or later
 - iOS 15.0 or later (for companion app features)
+
+### Device-Specific Notes
+
+#### Apple Watch Series 3
+- All core features are supported
+- Memory management is optimized for Series 3 hardware
+- Audio processing is adjusted for optimal performance
+- Background tracking available with some power management considerations
 
 ## Installation
 
@@ -57,6 +65,11 @@ iSleep takes your privacy seriously:
 3. Select your development team in the project settings
 4. Build and run on your Apple Watch
 5. For iOS companion app, select the iOS target and run on your iPhone
+
+### Series 3 Setup
+- Ensure your Watch has at least 1GB of free storage
+- Close other background apps for optimal performance
+- Keep Watch charged above 40% during sleep tracking
 
 ## Usage
 
