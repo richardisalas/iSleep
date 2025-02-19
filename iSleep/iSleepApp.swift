@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct iSleepApp: App {
+    let persistenceController = PersistenceController.shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CalendarView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
